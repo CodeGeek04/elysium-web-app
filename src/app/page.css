@@ -33,7 +33,8 @@
 
 .sprite-container1,
 .sprite-container2,
-.sprite-container3 {
+.sprite-container3,
+.butler-container {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -42,6 +43,10 @@
 }
 
 .sprite {
+  transition: transform 8s;
+}
+
+.butler {
   transition: transform 8s;
 }
 
@@ -62,12 +67,13 @@
 }
 
 
-.bubble {
+/* .bubble {
   position: absolute;
   top: -40px;
   background-color: #f9f9f9;
   color: black;
-  padding: 8px;
+  padding: 4px;
   border-radius: 4px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-}
+} */
+
